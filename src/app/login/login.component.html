@@ -1,0 +1,45 @@
+
+ 
+    <form class="form">
+      <div class="title">
+        <img src="../../assets/images/FieldStatusLogo.jpg" class="'logo" width="65%">
+        <br>
+        <h2>Login</h2>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1"> </label>
+        <input
+          type="text"
+          [(ngModel)]="email"
+          class="form-control"
+       name="email"
+          placeholder="United ID"
+          required="required"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1"> </label>
+        <input
+          type="password"
+          [(ngModel)]="password"
+          class="form-control"
+          id="stname"
+          name="password"
+          placeholder="Password"
+        />
+      </div>
+      <br />
+      <div class="form-group">
+        <input
+          type="submit"
+          class="btn btn-primary"
+          (click)="login()"
+          value="Login"
+        />
+      </div>
+      <div class="signupLink">
+        <a routerLink="signup">Sign-up</a>
+      </div>
+    </form>
+
+

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+form{
+height: 100%;
+width: 30%;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: linear-gradient(272.51deg, #F2F7FF -46.27%, #FEFEFF 87.17%), linear-gradient(180deg, rgba(237, 177, 77, 0.34) 0%, rgba(237, 177, 77, 0) 41.15%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 370px;
+  max-width: 500px;
+  max-height: 95%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.title{
+ display: flex;
+ flex-flow:column;
+ align-items: center;
+ justify-content: space-evenly;
+ margin-bottom: 5%;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.form-group{
+  text-align: center;
+  margin: 3%;
+  /* border:2px solid red; */
+  width: 50%;
+}
+
+#input-container{
+  width:40%;
+ 
+}
+label{
+  margin-bottom:10%;
+}
+/* input[type="submit"]{
+  background-color: #006080;
+  height: 100%;
+  width: 60%;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 6% 0;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  align-self: center;
+  letter-spacing: 5px;
+} */
+
+input[type="text"],input[type="password"]{
+  padding: 2% 10%;
+  text-align: center;
+}
+
+a{
+  margin-bottom:auto;
+  text-decoration: none;
+  
+}
+
+.form-control {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 73, 98, 0.09);
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+  width: 190px;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #006080;
+    height: 65px;
+    width: 195px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    color: #FFFFFF;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    align-self: center;
+    letter-spacing: 2px;
+}
+
+.signupLink {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 15px;
+  
+}
+
+

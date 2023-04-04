@@ -1,0 +1,48 @@
+
+<div class="form-container">
+<form>
+    <h1>Sign up</h1>
+
+  <div>
+    <label for="fname"> </label><br />
+    <input class="textArea" type="text" [(ngModel)]="firstName" id="fname" name="firstName" placeholder="First Name" /><br />
+  </div>
+  <div>
+    <label for="Lname"> </label><br />
+    <input class="textArea" type="text" [(ngModel)]="lastName" id="Lname" name="lastName" placeholder="Last Name"/><br />
+  </div>
+  <div>
+    <label for="username"></label><br />
+    <input
+      type="text"
+      [(ngModel)]="userName"
+      id="Uname"
+      name="userName"
+      placeholder="United ID"
+      class="textArea"
+    /><br />
+  </div>
+  <div>
+    <label for="uemail"></label><br />
+    <input type="text" [(ngModel)]="email" id="u-email" name="email" placeholder="United Email" class="textArea"/><br />
+  </div>
+  <div>
+    <label for="password"></label><br />
+    <input
+      type="text"
+      [(ngModel)]="password"
+      id="password"
+      name="password"
+      placeholder="Create Password"
+      class="textArea"
+    /><br />
+  </div>
+  <div>
+    <button class="submitBtn" type="submit" id="submit-btn" name="submit" value="Sign up" >Submit</button>
+  </div>
+  <div class="linkBtn">
+    <a routerLink="/">Log In</a>
+  </div>
+</form>
+
+
